@@ -1,6 +1,6 @@
 # LSTM Power Forecasting (Single‑Notebook Project)
 
-A compact, portfolio‑ready project that applies a **Long Short‑Term Memory (LSTM)** neural network to forecast **daily household power consumption**. The entire workflow lives in a single Jupyter notebook and covers: **data preparation**, **feature scaling**, **sequence framing**, **modeling in PyTorch**, and **business‑oriented evaluation**.
+Project that applies a **Long Short‑Term Memory (LSTM)** neural network to forecast **daily household power consumption**. The entire workflow lives in a single Jupyter notebook and covers: **data preparation**, **feature scaling**, **sequence framing**, **modeling in PyTorch**, and **business‑oriented evaluation**.
 
 ---
 
@@ -29,8 +29,6 @@ This notebook demonstrates a repeatable deep‑learning pipeline for **next‑da
 - **Granularity:** Original readings at minute‑level; the notebook **resamples to daily means**.
 - **Target:** `Global_active_power` (daily average).
 - **Features:** All available numerical features from the dataset (e.g., Global_active_power, Global_reactive_power, Voltage, Global_intensity, Sub_metering_1–3), aggregated to daily level.
-
-> ⚠️ **Data files are not included** in this repo. The notebook expects access to the UCI dataset file (often named `household_power_consumption.txt`, optionally inside a ZIP). Update the file path in the first data‑loading cell as needed.
 
 ---
 
@@ -100,15 +98,3 @@ That’s it—no extra scaffolding. This is deliberate to keep the repo **lightw
 - **Horizon:** Demonstrates **next‑day** forecasting; extend to **multi‑step** or **probabilistic** forecasts as needed.
 - **Tuning:** Explore **lookback**, **hidden sizes**, **layers**, **dropout**, **learning rate**, and **optimizers**. Consider **GRU** or **CNN‑LSTM** baselines.
 - **Operationalization:** Export a lightweight inference function and add thresholding/business rules for production use.
-
----
-
-## Attribution
-
-Dataset: *Individual household electric power consumption*, UCI Machine Learning Repository. Please respect the dataset’s license and terms of use.
-
----
-
-## Author
-
-**Dante Shoghanian** — MSBA candidate focused on practical **time‑series forecasting** and **ML applications** that translate into business impact.
