@@ -80,8 +80,6 @@ This notebook demonstrates a repeatable deep‑learning pipeline for **next‑da
 - **`LSTM_Power.ipynb`** — the single, end‑to‑end notebook (data prep → sequences → LSTM → evaluation).
 - **`README.md`** — this documentation.
 
-That’s it—no extra scaffolding. This is deliberate to keep the repo **lightweight and easy to review** for hiring managers.
-
 ---
 
 ## Interpreting Outputs (for Stakeholders)
