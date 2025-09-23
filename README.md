@@ -1,4 +1,4 @@
-# LSTM Power Forecasting (Single‑Notebook Project)
+# LSTM Power Forecasting
 
 Project that applies a **Long Short‑Term Memory (LSTM)** neural network to forecast **daily household power consumption**. The entire workflow lives in a single Jupyter notebook and covers: **data preparation**, **feature scaling**, **sequence framing**, **modeling in PyTorch**, and **business‑oriented evaluation**.
 
